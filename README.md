@@ -1,6 +1,6 @@
-# Kermit
+# EpidemIQ
 
-Kermit is an AI-powered project that integrates advanced data analysis, simulation, and web application components to provide insightful reports and interactive features. It leverages machine learning and graph-based retrieval augmented generation (RAG) techniques to analyze datasets and generate detailed simulation reports on various health-related scenarios.
+EpidemIQ is an AI-powered project that integrates advanced data analysis, simulation, and web application components to provide insightful reports and interactive features. It leverages machine learning and graph-based retrieval augmented generation (RAG) techniques to analyze datasets and generate detailed simulation reports on various health-related scenarios.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Kermit is an AI-powered project that integrates advanced data analysis, simulati
 
 ## About
 
-Kermit is designed to process complex datasets related to health conditions such as COVID-19, food poisoning, gastroenteritis, and pneumonia. It performs drift analysis, generates simulation reports, and supports interactive querying through a web interface. The project combines Jupyter notebooks, Python scripts, and a web app to deliver a comprehensive AI agent capable of data-driven decision support.
+EpidemIQ is designed to process complex datasets related to health conditions such as COVID-19, food poisoning, gastroenteritis, and pneumonia. It performs drift analysis, generates simulation reports, and supports interactive querying through a web interface. The project combines Jupyter notebooks, Python scripts, and a web app to deliver a comprehensive AI agent capable of data-driven decision support.
 
 ## Features
 
@@ -29,14 +29,14 @@ Kermit is designed to process complex datasets related to health conditions such
 
 ## Installation
 
-To set up Kermit locally, follow these steps:
+To set up EpidemIQ locally, follow these steps:
 
 1. Clone the repository:
 
 ```
 
-git clone https://github.com/Ahaque-AI/kermit.git
-cd kermit
+git clone https://github.com/Ahaque-AI/EpidemIQ.git
+cd EpidemIQ
 
 ```
 
@@ -49,7 +49,15 @@ source venv/bin/activate  \# On Windows: venv\Scripts\activate
 
 ```
 
-3. Explore datasets in the `dataset/` folder and simulation reports in the root directory.
+3. Install required Python packages:
+
+```
+
+pip install -r requirements.txt
+
+```
+
+4. Explore datasets in the `dataset/` folder and simulation reports in the root directory.
 
 ## Usage
 
